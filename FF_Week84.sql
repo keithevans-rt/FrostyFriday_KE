@@ -10,5 +10,3 @@ COPY FILES
   INTO @WEEK84
   FROM @frosty_aws_stage
   PATTERN='.*__.*[.]txt';
-
-  RM @WEEK84;
